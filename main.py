@@ -96,5 +96,6 @@ If there are any suggestions or queries or bugs please feel free to DM me :)```"
 
 
 
-keep_alive()
-root.run("ODY1NjU5ODQzNTk1MzM3NzQ4.YPHOjQ.TA0KoZ-g-CwsjXypUrJBK_9CqNI")
+keep_alive
+my_secret = os.environ['key']
+root.run(my_secret)
