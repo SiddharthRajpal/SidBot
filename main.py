@@ -115,7 +115,7 @@ async def email(ctx, receiver, subject, *, mail):
     msg['From'] = "sidotpconfirmation@gmail.com"
     msg['To'] = receiver
     server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-    server.login("sidotpconfirmation@gmail.com", "Blocked for privacy reasons")
+    server.login("sidotpconfirmation@gmail.com", "Blocked For Privacy Reasons")
     server.send_message(msg)
     server.quit()
   except:
